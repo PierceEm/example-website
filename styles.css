@@ -12,20 +12,20 @@ a, ul{
     margin-top: 8px;
  }
 
+ /* Start of header CSS */
+
 .header-links {
     display: inline-flex;
-    gap: 10px;
+    gap: 15px;
     align-items: flex-start;
     margin-right:150px;
 
 }
 
-
-
 .header{
     display:flex;
     flex-direction: column;
-    height: 300px;
+    height: 350px;
     min-width: 100vh;
     background-color: #1F2937;
    
@@ -40,8 +40,8 @@ a, ul{
 
 .hero-image {
     display: flex;
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
     margin-right: 150px;
 
 }
@@ -53,18 +53,21 @@ a, ul{
    display: flex;
    justify-content: space-between;
    font-size: 24px;
-   margin-bottom: 65px;
+   margin-bottom: 50px;
 
 }
 
-
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 
 .header-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    display: flex;
     margin-left: 150px;  
     width: 300px;
     
@@ -85,4 +88,36 @@ a, ul{
     background-color: #3882F6;
     color: white;
     padding: 2px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+ /* End of header CSS */
+
+ .container {
+text-align: center;
+font-size: 20px;
+font-weight: bolder;
+color: #1f2937;
+height: 300px;
+ }
+
+.photo-list {
+display: flex;
+justify-content: space-around;
+gap: 10px;
+
+
+}
+
+.photos {
+    display: flex;
+  flex-direction: column;
+    width: 200px;
+   height: 200px;
+   gap: 10px;
+   font-weight: lighter;
+   color: rgb(93, 100, 110);
+   background-color: #e5e7eb;
+   border: 5px solid #1F2937;
 }
